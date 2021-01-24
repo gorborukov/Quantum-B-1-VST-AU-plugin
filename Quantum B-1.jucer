@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="f36wzy" name="Quantum B-1" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="1" companyName="Hyperspace Lab"
+              companyCopyright="Evgeny Gorborukov" companyWebsite="https://hyperspacelab.info"
+              companyEmail="hyperspaceinbox@gmail.com" pluginCharacteristicsValue="pluginIsSynth,pluginProducesMidiOut,pluginWantsMidiIn"
+              pluginManufacturerCode="HSLB" pluginCode="QNB1" pluginChannelConfigs="{0,2}">
+  <MAINGROUP id="X4WX0E" name="Quantum B-1">
+    <GROUP id="{B33A65E6-963F-2DD1-B2C8-731F22D66A58}" name="Source">
+      <GROUP id="{2C7FD783-0498-E21A-FD34-B12E3CA73583}" name="Heavy">
+        <FILE id="jmaF4T" name="Heavy_B1.cpp" compile="1" resource="0" file="Source/Heavy/Heavy_B1.cpp"/>
+        <FILE id="Ztlb0f" name="Heavy_B1.h" compile="0" resource="0" file="Source/Heavy/Heavy_B1.h"/>
+        <FILE id="SM3xnw" name="Heavy_B1.hpp" compile="0" resource="0" file="Source/Heavy/Heavy_B1.hpp"/>
+        <FILE id="sSiNEC" name="HeavyContext.cpp" compile="1" resource="0"
+              file="Source/Heavy/HeavyContext.cpp"/>
+        <FILE id="RPnOYr" name="HeavyContext.hpp" compile="0" resource="0"
+              file="Source/Heavy/HeavyContext.hpp"/>
+        <FILE id="ynNsDS" name="HeavyContextInterface.hpp" compile="0" resource="0"
+              file="Source/Heavy/HeavyContextInterface.hpp"/>
+        <FILE id="IADiV8" name="HvControlBinop.c" compile="1" resource="0"
+              file="Source/Heavy/HvControlBinop.c"/>
+        <FILE id="ggfqux" name="HvControlBinop.h" compile="0" resource="0"
+              file="Source/Heavy/HvControlBinop.h"/>
+        <FILE id="MYrD3K" name="HvControlCast.c" compile="1" resource="0" file="Source/Heavy/HvControlCast.c"/>
+        <FILE id="huDCvC" name="HvControlCast.h" compile="0" resource="0" file="Source/Heavy/HvControlCast.h"/>
+        <FILE id="hgJ42u" name="HvControlDelay.c" compile="1" resource="0"
+              file="Source/Heavy/HvControlDelay.c"/>
+        <FILE id="Vke78b" name="HvControlDelay.h" compile="0" resource="0"
+              file="Source/Heavy/HvControlDelay.h"/>
+        <FILE id="Wgtrtn" name="HvControlIf.c" compile="1" resource="0" file="Source/Heavy/HvControlIf.c"/>
+        <FILE id="wuaFAv" name="HvControlIf.h" compile="0" resource="0" file="Source/Heavy/HvControlIf.h"/>
+        <FILE id="hW6p3p" name="HvControlPack.c" compile="1" resource="0" file="Source/Heavy/HvControlPack.c"/>
+        <FILE id="XTM07Z" name="HvControlPack.h" compile="0" resource="0" file="Source/Heavy/HvControlPack.h"/>
+        <FILE id="MYPu75" name="HvControlRandom.c" compile="1" resource="0"
+              file="Source/Heavy/HvControlRandom.c"/>
+        <FILE id="GBOxNq" name="HvControlRandom.h" compile="0" resource="0"
+              file="Source/Heavy/HvControlRandom.h"/>
+        <FILE id="pIySGA" name="HvControlSlice.c" compile="1" resource="0"
+              file="Source/Heavy/HvControlSlice.c"/>
+        <FILE id="q7tJDH" name="HvControlSlice.h" compile="0" resource="0"
+              file="Source/Heavy/HvControlSlice.h"/>
+        <FILE id="f8TOF5" name="HvControlSystem.c" compile="1" resource="0"
+              file="Source/Heavy/HvControlSystem.c"/>
+        <FILE id="RvDzMF" name="HvControlSystem.h" compile="0" resource="0"
+              file="Source/Heavy/HvControlSystem.h"/>
+        <FILE id="XS1ClS" name="HvControlUnop.c" compile="1" resource="0" file="Source/Heavy/HvControlUnop.c"/>
+        <FILE id="uFgqFu" name="HvControlUnop.h" compile="0" resource="0" file="Source/Heavy/HvControlUnop.h"/>
+        <FILE id="uDMnjL" name="HvControlVar.c" compile="1" resource="0" file="Source/Heavy/HvControlVar.c"/>
+        <FILE id="OTWCOd" name="HvControlVar.h" compile="0" resource="0" file="Source/Heavy/HvControlVar.h"/>
+        <FILE id="ajh56y" name="HvHeavy.cpp" compile="1" resource="0" file="Source/Heavy/HvHeavy.cpp"/>
+        <FILE id="zrCL1h" name="HvHeavy.h" compile="0" resource="0" file="Source/Heavy/HvHeavy.h"/>
+        <FILE id="P6mywx" name="HvHeavyInternal.h" compile="0" resource="0"
+              file="Source/Heavy/HvHeavyInternal.h"/>
+        <FILE id="jbzyC9" name="HvLightPipe.c" compile="1" resource="0" file="Source/Heavy/HvLightPipe.c"/>
+        <FILE id="Q3vkHb" name="HvLightPipe.h" compile="0" resource="0" file="Source/Heavy/HvLightPipe.h"/>
+        <FILE id="ChbvWF" name="HvMath.h" compile="0" resource="0" file="Source/Heavy/HvMath.h"/>
+        <FILE id="WRDJz8" name="HvMessage.c" compile="1" resource="0" file="Source/Heavy/HvMessage.c"/>
+        <FILE id="QLFel9" name="HvMessage.h" compile="0" resource="0" file="Source/Heavy/HvMessage.h"/>
+        <FILE id="MdQw5I" name="HvMessagePool.c" compile="1" resource="0" file="Source/Heavy/HvMessagePool.c"/>
+        <FILE id="Z0O2yG" name="HvMessagePool.h" compile="0" resource="0" file="Source/Heavy/HvMessagePool.h"/>
+        <FILE id="C3vB5Q" name="HvMessageQueue.c" compile="1" resource="0"
+              file="Source/Heavy/HvMessageQueue.c"/>
+        <FILE id="WpjnYW" name="HvMessageQueue.h" compile="0" resource="0"
+              file="Source/Heavy/HvMessageQueue.h"/>
+        <FILE id="rwp2b1" name="HvSignalDel1.c" compile="1" resource="0" file="Source/Heavy/HvSignalDel1.c"/>
+        <FILE id="y4QpD6" name="HvSignalDel1.h" compile="0" resource="0" file="Source/Heavy/HvSignalDel1.h"/>
+        <FILE id="tof2K7" name="HvSignalLine.c" compile="1" resource="0" file="Source/Heavy/HvSignalLine.c"/>
+        <FILE id="B7LPlo" name="HvSignalLine.h" compile="0" resource="0" file="Source/Heavy/HvSignalLine.h"/>
+        <FILE id="d8HX7G" name="HvSignalPhasor.c" compile="1" resource="0"
+              file="Source/Heavy/HvSignalPhasor.c"/>
+        <FILE id="AojK6A" name="HvSignalPhasor.h" compile="0" resource="0"
+              file="Source/Heavy/HvSignalPhasor.h"/>
+        <FILE id="Sxpjv6" name="HvSignalRPole.c" compile="1" resource="0" file="Source/Heavy/HvSignalRPole.c"/>
+        <FILE id="LotFTJ" name="HvSignalRPole.h" compile="0" resource="0" file="Source/Heavy/HvSignalRPole.h"/>
+        <FILE id="T5BPT7" name="HvSignalVar.c" compile="1" resource="0" file="Source/Heavy/HvSignalVar.c"/>
+        <FILE id="RSrpqo" name="HvSignalVar.h" compile="0" resource="0" file="Source/Heavy/HvSignalVar.h"/>
+        <FILE id="AyowqR" name="HvTable.c" compile="1" resource="0" file="Source/Heavy/HvTable.c"/>
+        <FILE id="oEvcgU" name="HvTable.h" compile="0" resource="0" file="Source/Heavy/HvTable.h"/>
+        <FILE id="ggOVEV" name="HvUtils.c" compile="1" resource="0" file="Source/Heavy/HvUtils.c"/>
+        <FILE id="pRRluW" name="HvUtils.h" compile="0" resource="0" file="Source/Heavy/HvUtils.h"/>
+      </GROUP>
+      <FILE id="La4C0j" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="Qba5st" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="ixLFrx" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="kSh60E" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="zjNOeE" name="Montserrat-Black.ttf" compile="0" resource="1"
+            file="Source/Montserrat-Black.ttf"/>
+      <FILE id="IKkEJJ" name="Montserrat-ExtraBold.ttf" compile="0" resource="1"
+            file="Source/Montserrat-ExtraBold.ttf"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Quantum B-1"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Quantum B-1"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../Users/evgeny/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../Users/evgeny/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../Users/evgeny/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../Users/evgeny/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../Users/evgeny/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../Users/evgeny/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../Users/evgeny/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../Users/evgeny/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../Users/evgeny/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../Users/evgeny/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../Users/evgeny/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../Users/evgeny/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
