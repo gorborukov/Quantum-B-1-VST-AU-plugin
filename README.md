@@ -10,3 +10,5 @@ If you want to compile your own patch you can use great hvcc compiler https://gi
 
 Usage example:
 `python hvcc.py YourPatchName.pd -n YourProjectName`
+
+Plugin [video demo](https://www.youtube.com/watch?v=IOt8d_SLA68).
