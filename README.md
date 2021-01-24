@@ -1,4 +1,7 @@
 # Quantum-B-1-VST-AU-plugin
+
+<img src="https://github.com/gorborukov/Quantum-B-1-VST-AU-plugin/blob/main/quantum-b-1.png?raw=true">
+
 Probability based drum synthesizer &amp; sequencer. Example of Pure Data patch integration into Juce through the hvcc compiler.
 
 I do not publish the .pd patch source because I'm doing another project based on it, but in the repository you will find c++ compiled patch integrated into a project based on a JUCE Framework.
